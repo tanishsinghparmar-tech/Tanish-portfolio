@@ -109,11 +109,10 @@ document.addEventListener('DOMContentLoaded', () => {
             duration: 0.8,
             ease: "power3.out"
         }, "-=0.6")
-        .from('.hero-cta a', {
+        .from('.hero-cta', {
             y: 20,
             opacity: 0,
             duration: 0.6,
-            stagger: 0.1,
             ease: "power2.out"
         }, "-=0.6")
         .from('.hero-image-wrapper', {
